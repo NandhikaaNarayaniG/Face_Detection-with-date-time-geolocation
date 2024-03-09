@@ -10,7 +10,7 @@ if not cap.isOpened():
     print("Error: Could not open camera.")
     exit()
 # Directory to save the detected face images
-output_dir = 'detected_faces'
+output_dir = 'detected_faces' #directory to which your image has to be saved
 os.makedirs(output_dir, exist_ok=True)
 
 while True:    
